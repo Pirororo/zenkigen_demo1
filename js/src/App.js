@@ -8,9 +8,6 @@ export class App{
       // シーン
       this._scene = sceneInstance;
 
-      // カメラ
-      this._scene.camera = this._scene._persCamera;
-
       //レンダラー
       this._renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true});
       this._renderer.setClearColor(new THREE.Color(0xffffff), 1.0);
