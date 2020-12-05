@@ -1,4 +1,4 @@
-import * as THREE from '../../libs/three.module.js';
+import * as THREE from '../../libs/three.module_select.js';
 
 export default class Camera extends THREE.PerspectiveCamera{
   constructor() {

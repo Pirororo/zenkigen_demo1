@@ -1,4 +1,4 @@
-import * as THREE from '../../libs/three.module.js';
+import * as THREE from '../../libs/three.module_select.js';
 import persCamera from '../camera/persCamera.js';
 import Sea from '../objects/Sea.js';
 
